@@ -68,7 +68,6 @@ class Lookupform extends AbstractAccount
             return $resultRedirect;
         }
 
-        $resultPage->getConfig()->getTitle()->set(__(''));
         $resultPage->getLayout()->getBlock('messages')->setEscapeMessageFlag(true);
 
         return $resultPage;
